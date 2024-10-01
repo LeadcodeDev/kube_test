@@ -30,7 +30,7 @@ spec:
               value: {{ .Values.intent | quote  }}
             - name: LOG_LEVEL
               value: {{ .Values.logLevel | quote  }}
-            - name: DB_USER
+            - name: TOKEN
               valueFrom:
                 secretKeyRef:
                   name: {{ .Values.kubeSecret }}
