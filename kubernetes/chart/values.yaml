@@ -1,0 +1,16 @@
+replicas: 1
+
+dartEnv: development
+httpVersion: 10
+wssVersion: 10
+intent: 3276799
+logLevel: info
+
+kubeSecret: backend-postgres-credentials
+
+image:
+  registry: ghcr.io
+  repository: LeadcodeDev/kube_test
+  pullSecretName: registry-credentials
+
+
