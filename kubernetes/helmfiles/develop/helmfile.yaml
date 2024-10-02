@@ -1,0 +1,7 @@
+releases:
+  - name: mineral-bot-dev
+    namespace: mineral
+    chart: ../../chart
+    version: 0.1.0
+    values:
+      - ./values.yaml

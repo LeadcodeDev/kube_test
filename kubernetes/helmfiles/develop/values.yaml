@@ -1,6 +1,3 @@
 image:
-  repository: ghcr.io/placecare/backend
-  tag: "92f2807"
-postgres:
-  host: postgresql-primary.infrastructure.svc.cluster.local
-  database: placecare_api
+  repository: ghcr.io/leadcodedev/kube_test
+  tag: "b8e07a2"

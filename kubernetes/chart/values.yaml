@@ -1,10 +1,10 @@
 replicas: 1
 
-dartEnv: development
+dartEnv: production
 httpVersion: 10
 wssVersion: 10
-intent: 3276799
-logLevel: info
+intent: '3276799'
+logLevel: trace
 
 kubeSecret: mineral-bot-credentials
 

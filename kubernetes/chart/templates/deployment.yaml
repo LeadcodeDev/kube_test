@@ -2,22 +2,22 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: {{ .Release.Name }}-kube_test
+  name: {{ .Release.Name }}-kube-test
   namespace: {{ .Release.Namespace }}
   labels:
-    app: kube_test
+    app: kube-test
 spec:
   replicas: {{ .Values.replicas }}
   selector:
     matchLabels:
-      app: kube_test
+      app: kube-test
   template:
     metadata:
       labels:
-        app: kube_test
+        app: kube-test
     spec:
       containers:
-        - name: {{ .Release.Name }}-kube_test
+        - name: {{ .Release.Name }}-kube-test
           image: "{{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           env:
             - name: DART_ENV
