@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/placecare/backend
-  tag: "acb1652"
+  tag: "37ca288"
 postgres:
   host: postgresql-primary.infrastructure.svc.cluster.local
   database: placecare_api
