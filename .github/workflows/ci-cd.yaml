@@ -62,4 +62,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/LeadcodeDev/kube_test:${{ env.sha }}
+          tags: ghcr.io/leadcodedev/kube_test:${{ env.sha }}
