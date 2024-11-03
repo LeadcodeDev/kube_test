@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: kube-test
+        monitoring: enabled
     spec:
       containers:
         - name: {{ .Release.Name }}-kube-test

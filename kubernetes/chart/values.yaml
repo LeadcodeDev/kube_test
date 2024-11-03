@@ -10,7 +10,7 @@ kubeSecret: mineral-bot-credentials
 
 image:
   registry: ghcr.io
-  repository: LeadcodeDev/kube_test
+  repository: leadcodedev/kube_test
   pullSecretName: registry-credentials
 
 

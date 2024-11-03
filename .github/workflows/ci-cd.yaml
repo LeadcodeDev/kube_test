@@ -63,3 +63,4 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/leadcodedev/kube_test:${{ env.sha }}
+          provenance: false
